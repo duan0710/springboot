@@ -1,4 +1,4 @@
-package com.duan.springboot;
+package com.duan;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
