@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/springdatajpa?characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password:
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      naming:org.hibernate.cfg.ImproveNamingStrategy
